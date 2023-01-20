@@ -1,0 +1,128 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------PAGE STYLE------------ */
+
+  body{
+    background: linear-gradient(70deg
+  ,rgb(70, 177, 177),rgb(79, 184, 184));
+
+  }
+
+  .container{
+    max-width: 32rem;
+    margin: auto;
+    box-shadow: 1px 4px 6px 3px aqua;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+   
+  }
+  h1{
+    text-align: center;
+    color: rgb(224, 221, 221);
+    font-size: 5rem;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .input-area{
+    padding: 1rem 6rem;
+    width: 40%;
+    font-size: 1.1rem;
+    color:rgb(71, 67, 67);
+    margin: 0 auto;
+    background-color: rgb(202, 198, 198);
+
+  }
+
+  li{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    list-style: none;
+    margin: 0 10rem 0rem 10rem;
+    border: 1px dotted rgb(255, 255, 255);
+    margin-bottom: 1rem;
+  }
+  span:hover{
+    display: block;
+  }
+  span{
+    margin-right: 5rem;
+  }
+  .btn{
+    background-color: rgb(161, 69, 69);
+    color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    margin: 1rem .3rem;
+    font-size: 1.12rem;
+    padding: .3rem;
+
+  }
+  .btn:hover{
+    background-color:rgb(255, 175, 148);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+  }
+  .selected{
+    background-color: white !important;
+    border: 1px solid !important;
+    color: black !important;
+  }
+
+  p{
+    color: rgb(5, 5, 5);
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+   .timer{
+  font-size: 8rem;
+  width: 56rem;
+  margin: 1rem;
+  text-align: center;
+  }
